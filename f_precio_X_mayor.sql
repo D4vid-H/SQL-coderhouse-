@@ -4,7 +4,7 @@ CREATE FUNCTION f_precio_X_mayor(precio DECIMAL(7,2))
 RETURNS decimal(7,2)
     DETERMINISTIC
 BEGIN
-	DECLARE mayor DECIMA(3,2)L;
+	DECLARE mayor DECIMAL(3,2);
     DECLARE precio_por_mayor DECIMAL(7,2);
     SET mayor = 1.16 ;
     SET precio_por_mayor = precio * mayor;
