@@ -1,6 +1,6 @@
 DELIMITER $$
 
-CREATE FUNCTION precio_X_mayor(precio DECIMAL(7,2)) 
+CREATE FUNCTION f_precio_X_mayor(precio DECIMAL(7,2)) 
 RETURNS decimal(7,2)
     DETERMINISTIC
 BEGIN
