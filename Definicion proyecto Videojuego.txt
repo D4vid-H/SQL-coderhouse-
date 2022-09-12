@@ -1,9 +1,0 @@
-Video Juego
-
-Se crea una database como solucion a diferentes video juegos.
-
-Se pueden crear diferentes cuentas y por cada cuenta se crean diferentes personajes para abordar los niveles del juego.
-
-Los personajes puden crecer en nivel mientras avanzan de nivel en el juego.
-
-
