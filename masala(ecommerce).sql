@@ -42,7 +42,7 @@ CREATE TABLE envio (
 envio_id INT NOT NULL AUTO_INCREMENT,
 empresa_entrega_id INT NOT NULL,
 compra_id INT NOT NULL,
-kilometros INT NOT NULL,
+kilometros DECIMAL NOT NULL,
 fecha_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
 total_envio DECIMAL (9,2) NOT NULL,
 PRIMARY KEY (envio_id),

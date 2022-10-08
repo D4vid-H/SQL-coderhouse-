@@ -8,7 +8,14 @@ VALUES
 	('Felix', 'Gonzalez', 'DNI', 10445578, 'fgonzalez@mail.com', 'Santa Rosa', 21, NULL, NULL, 'Cordoba', '5000'),
 	('Dario', 'Pons', 'DNI', 14395677, 'dario.pons@mail.com', 'Humberto Primero', 214, 'C', '8', 'Salta', '5000'),
 	('Pablo', 'Guzman', 'DNI', 13568749, 'pguzman@mail.com', 'Colon', 2536, NULL, NULL, 'Jujuy', '5000'),
-	('Belen', 'Fuentes', 'DNI', 11284658, 'bfuentes@mail.com', 'Entre Rios', 11, 'D', '5', 'Jujuy', '5000')  
+	('Belen', 'Fuentes', 'DNI', 11284658, 'bfuentes@mail.com', 'Entre Rios', 11, 'D', '5', 'Jujuy', '5000'),
+    ('Gerardo', 'Gomez', 'DNI', 12345878, 'ggomez@mail.com', 'Colon', 1221, 'A', '3', 'Cordoba', '5000'),
+	('Andre', 'Fererro', 'DNI', 32358628, 'afererro@mail.com', 'Belgrano', 153, NULL, NULL, 'Santiago del Estero', '5000'),
+	('Pedro', 'Bello', 'DNI', 10385978, 'pbello@mail.com', 'General Paz', 121, 'E', '1', ' Buenos Aires', '5000'),
+	('Felix', 'Frias', 'DNI', 09445578, 'ffrias@mail.com', 'Santa Rosa', 21, NULL, NULL, 'Cordoba', '5000'),
+	('Dario', 'Barassi', 'DNI', 30395677, 'dbarassi@mail.com', 'Humberto Primero', 214, 'C', '8', 'Salta', '5000'),
+	('Pablo', 'Picasso', 'DNI', 03568749, 'ppicasso@mail.com', 'Colon', 2536, NULL, NULL, 'Jujuy', '5000'),
+	('Belen', 'Buenaespina', 'DNI', 27284658, 'bespina@mail.com', 'Entre Rios', 11, 'D', '5', 'Jujuy', '5000') 
 ;
 
 INSERT INTO compra (cliente_id, total)
@@ -30,7 +37,9 @@ INSERT INTO compra (cliente_id, total)
     (4, (SELECT SUM(`sub_total`) FROM lista_compra
 	WHERE compra_id = 8)),
     (6, (SELECT SUM(`sub_total`) FROM lista_compra
-	WHERE compra_id = 9))
+	WHERE compra_id = 9)),
+    (10, (SELECT SUM(`sub_total`) FROM lista_compra
+	WHERE compra_id = 10))
 ;
 
 INSERT INTO producto (nombre_producto, stock, stock_minimo, descripcion, precio_producto)
@@ -45,19 +54,20 @@ VALUES
 
 INSERT INTO lista_compra (compra_id, producto_id, cantidad_producto, sub_total)
 	VALUES
-    (1, 2, 5, 4398.25),
-    (1, 4, 3, 2694.03),
-    (1, 1, 2, 1376.5),
-    (5, 4, 3, 2694),
-    (2, 6, 3, 2064),
-    (3, 6, 8, 5440),
-    (5, 4, 5, 4490),
-    (4, 2, 3, 1557.5),
-    (4, 1, 2, 1376.5),
-    (6, 1, 2, 1376.5),
-    (7, 1, 2, 1376.5),
-    (8, 1, 2, 1376.5),
-    (9, 1, 2, 1376.5)
+    (1, 2, 5, f_total_compra(2,5)),
+    (1, 4, 3, f_total_compra(4,3)),
+    (1, 1, 2, f_total_compra(1,2)),
+    (5, 4, 3, f_total_compra(4,3)),
+    (2, 6, 3, f_total_compra(6,3)),
+    (3, 6, 8, f_total_compra(6,8)),
+    (5, 4, 5, f_total_compra(4,5)),
+    (4, 2, 3, f_total_compra(2,3)),
+    (4, 1, 2, f_total_compra(1,2)),
+    (6, 1, 2, f_total_compra(1,2)),
+    (7, 1, 2, f_total_compra(1,2)),
+    (8, 1, 2, f_total_compra(1,2)),
+    (9, 1, 2, f_total_compra(1,2)),
+    (10, 6, 4, f_total_compra(6,4))
 ;
 
 INSERT INTO empresa_entrega (nombre_empresa, precio_km)
@@ -68,12 +78,13 @@ INSERT INTO empresa_entrega (nombre_empresa, precio_km)
 
 INSERT INTO envio (compra_id, empresa_entrega_id, kilometros, total_envio)
 	VALUES
-    (1, 1, 35, 700),
-    (2, 1, 18, 360),
-    (3, 2, 7, 154),
-    (4, 1, 9, 180),
-    (5, 1, 3, 60),
-    (6, 2, 4, 88)
+    (1, 1, 35, f_total_delivery(1,35)),
+    (2, 1, 18, f_total_delivery(1,18)),
+    (3, 2, 7, f_total_delivery(2,7)),
+    (4, 1, 9, f_total_delivery(1,9)),
+    (5, 1, 3, f_total_delivery(1,3)),
+    (6, 2, 4, f_total_delivery(2,4)),
+    (7, 1, 6, f_total_delivery(1,6))
 ;
 
 INSERT INTO proveedor (nombre_proveedor, direccion, email, ciudad, provincia)
