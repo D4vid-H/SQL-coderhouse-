@@ -9,7 +9,7 @@ CREATE VIEW v_ofertas_vendidas_mes AS
         JOIN producto AS p ON lc.producto_id = p.producto_id
     WHERE
         p.producto_id = 1
-            AND co.fecha_compra BETWEEN '2022-07-01' AND '2022-07-31'
+            AND co.fecha_compra BETWEEN '2022-10-01' AND '2022-10-31'
 
 /*
 Se crea vista donde podemos ver la cantidad de un producto que se vendio entre un determinado periodo
