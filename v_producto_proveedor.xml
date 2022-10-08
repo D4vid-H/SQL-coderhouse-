@@ -1,0 +1,44 @@
+<DATA>
+
+	<ROW>
+		<codigo>3</codigo>
+		<productos>Cuatro Vacas Locas Malbec</productos>
+		<proveedor>Bodega Santa Clara</proveedor>
+		<fecha>2022-10-08 07:58:55</fecha>
+	</ROW>
+
+	<ROW>
+		<codigo>1</codigo>
+		<productos>Cero Syrah</productos>
+		<proveedor>Bodega Santa Clara</proveedor>
+		<fecha>2022-10-08 07:58:55</fecha>
+	</ROW>
+
+	<ROW>
+		<codigo>2</codigo>
+		<productos>Chichero Malbec</productos>
+		<proveedor>Bodega Santa Clara</proveedor>
+		<fecha>2022-10-08 07:58:55</fecha>
+	</ROW>
+
+	<ROW>
+		<codigo>5</codigo>
+		<productos>Esencia de la Tierra Malbec</productos>
+		<proveedor>Bodega Santa Clara</proveedor>
+		<fecha>2022-10-08 07:58:55</fecha>
+	</ROW>
+
+	<ROW>
+		<codigo>4</codigo>
+		<productos>Cuatro Vacas Locas Cabernet</productos>
+		<proveedor>Bodega Alvarez</proveedor>
+		<fecha>2022-10-08 07:58:55</fecha>
+	</ROW>
+
+	<ROW>
+		<codigo>6</codigo>
+		<productos>Santa Irene Cabernet</productos>
+		<proveedor>Bodega Alvarez</proveedor>
+		<fecha>2022-10-08 07:58:55</fecha>
+	</ROW>
+</DATA>

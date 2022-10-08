@@ -1,0 +1,114 @@
+<DATA>
+
+	<ROW>
+		<productos>Chichero Malbec</productos>
+		<cantidad>5</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Fernando,Gomez</cliente>
+		<total>4398.25</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cuatro Vacas Locas Cabernet</productos>
+		<cantidad>3</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Fernando,Gomez</cliente>
+		<total>2694.03</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cero Syrah</productos>
+		<cantidad>2</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Fernando,Gomez</cliente>
+		<total>1376.50</total>
+	</ROW>
+
+	<ROW>
+		<productos>Santa Irene Cabernet</productos>
+		<cantidad>3</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Dario,Pons</cliente>
+		<total>2040.75</total>
+	</ROW>
+
+	<ROW>
+		<productos>Santa Irene Cabernet</productos>
+		<cantidad>8</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Andrea,Ferrero</cliente>
+		<total>5442.00</total>
+	</ROW>
+
+	<ROW>
+		<productos>Chichero Malbec</productos>
+		<cantidad>3</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Pedro,Alonzo</cliente>
+		<total>2638.95</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cero Syrah</productos>
+		<cantidad>2</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Pedro,Alonzo</cliente>
+		<total>1376.50</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cuatro Vacas Locas Cabernet</productos>
+		<cantidad>3</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Fernando,Gomez</cliente>
+		<total>2694.03</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cuatro Vacas Locas Cabernet</productos>
+		<cantidad>5</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Fernando,Gomez</cliente>
+		<total>4490.05</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cero Syrah</productos>
+		<cantidad>2</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Belen,Fuentes</cliente>
+		<total>1376.50</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cero Syrah</productos>
+		<cantidad>2</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Pedro,Alonzo</cliente>
+		<total>1376.50</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cero Syrah</productos>
+		<cantidad>2</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Felix,Gonzalez</cliente>
+		<total>1376.50</total>
+	</ROW>
+
+	<ROW>
+		<productos>Cero Syrah</productos>
+		<cantidad>2</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Pablo,Guzman</cliente>
+		<total>1376.50</total>
+	</ROW>
+
+	<ROW>
+		<productos>Santa Irene Cabernet</productos>
+		<cantidad>4</cantidad>
+		<fecha>2022-10-08 07:58:54</fecha>
+		<cliente>Pedro,Bello</cliente>
+		<total>2721.00</total>
+	</ROW>
+</DATA>

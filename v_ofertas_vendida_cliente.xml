@@ -1,0 +1,50 @@
+<DATA>
+
+	<ROW>
+		<producto_id>1</producto_id>
+		<cantidad_producto>2</cantidad_producto>
+		<nombre_producto>Cero Syrah</nombre_producto>
+		<fecha_compra>2022-10-08 07:58:54</fecha_compra>
+		<Cliente>Fernando,Gomez</Cliente>
+	</ROW>
+
+	<ROW>
+		<producto_id>1</producto_id>
+		<cantidad_producto>2</cantidad_producto>
+		<nombre_producto>Cero Syrah</nombre_producto>
+		<fecha_compra>2022-10-08 07:58:54</fecha_compra>
+		<Cliente>Pedro,Alonzo</Cliente>
+	</ROW>
+
+	<ROW>
+		<producto_id>1</producto_id>
+		<cantidad_producto>2</cantidad_producto>
+		<nombre_producto>Cero Syrah</nombre_producto>
+		<fecha_compra>2022-10-08 07:58:54</fecha_compra>
+		<Cliente>Belen,Fuentes</Cliente>
+	</ROW>
+
+	<ROW>
+		<producto_id>1</producto_id>
+		<cantidad_producto>2</cantidad_producto>
+		<nombre_producto>Cero Syrah</nombre_producto>
+		<fecha_compra>2022-10-08 07:58:54</fecha_compra>
+		<Cliente>Pedro,Alonzo</Cliente>
+	</ROW>
+
+	<ROW>
+		<producto_id>1</producto_id>
+		<cantidad_producto>2</cantidad_producto>
+		<nombre_producto>Cero Syrah</nombre_producto>
+		<fecha_compra>2022-10-08 07:58:54</fecha_compra>
+		<Cliente>Felix,Gonzalez</Cliente>
+	</ROW>
+
+	<ROW>
+		<producto_id>1</producto_id>
+		<cantidad_producto>2</cantidad_producto>
+		<nombre_producto>Cero Syrah</nombre_producto>
+		<fecha_compra>2022-10-08 07:58:54</fecha_compra>
+		<Cliente>Pablo,Guzman</Cliente>
+	</ROW>
+</DATA>
