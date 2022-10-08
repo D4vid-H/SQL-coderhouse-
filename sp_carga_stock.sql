@@ -3,8 +3,8 @@ DELIMITER $$
 CREATE PROCEDURE sp_carga_stock (IN producto_id INT, IN cantidad_producto INT)
 
 BEGIN
-	UPDATE producto AS p
-		SET p.stock =+ cantidad_producto
+	UPDATE masala.producto AS p
+		SET p.stock = p.stock + cantidad_producto
         WHERE p.producto_id = producto_id;	
 
 END $$
